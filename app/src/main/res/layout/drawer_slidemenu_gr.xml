@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.navigation.NavigationView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:paddingTop="25dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
+                android:layout_marginLeft="6.7dp"
+                android:elevation="10dp"
+                android:padding="10dp"
+                android:src="@drawable/ic_man_1"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="5dp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="6dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_UserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sfpro_display_medium"
+                    android:text="@string/john_doe"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:letterSpacing="0.0525"/>
+
+                <TextView
+                    android:id="@+id/tv_UserMobile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sfpro_display_medium"
+                    android:text="@string/_1_928324232"
+                    android:textColor="@color/silver"
+                    android:textSize="14sp"
+                    android:letterSpacing="0.0525" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="17.7dp"
+            android:paddingBottom="12.2dp"
+            android:paddingTop="12dp"
+            android:layout_marginTop="18.6dp"
+            android:orientation="horizontal"
+            android:background="#fafbfc">
+
+            <ImageView
+                android:id="@+id/rideimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_profile_24"
+                app:tint="@color/silver" />
+
+            <TextView
+                android:id="@+id/ridetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Profile"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/sfpro_display_medium"
+                android:layout_gravity="center"
+                android:layout_marginLeft="22.9dp"
+                android:letterSpacing="0.0525" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/payment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="17.7dp"
+            android:paddingBottom="12.2dp"
+            android:paddingTop="12dp"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/paymentimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/payment_mode" />
+
+            <TextView
+                android:id="@+id/paymenttext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/payment_modes"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/sfpro_display_medium"
+                android:layout_gravity="center"
+                android:layout_marginLeft="21dp"
+                android:letterSpacing="0.0525" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL_AllBooking"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="17.7dp"
+            android:paddingBottom="12.2dp"
+            android:paddingTop="12dp"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/bookingimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/booking" />
+
+            <TextView
+                android:id="@+id/bookingtext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20.9dp"
+                android:fontFamily="@font/sfpro_display_medium"
+                android:letterSpacing="0.0525"
+                android:text="All Bookings Details"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:visibility="visible"
+            android:id="@+id/ll_Account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="17.7dp"
+            android:paddingBottom="12.2dp"
+            android:paddingTop="12dp"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <ImageView
+
+                android:layout_width="20dp"
+                android:padding="2dp"
+                android:layout_height="20dp"
+                android:src="@drawable/walli" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="22dp"
+                android:fontFamily="@font/sfpro_display_medium"
+                android:text="My Wallet"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:letterSpacing="0.0525" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:visibility="visible"
+            android:id="@+id/ll_ChangePassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="17.7dp"
+            android:paddingBottom="12.2dp"
+            android:paddingTop="12dp"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/offers" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="22dp"
+                android:fontFamily="@font/sfpro_display_medium"
+                android:text="Change Password"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:letterSpacing="0.0525" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="17.7dp"
+            android:paddingBottom="12.2dp"
+            android:paddingTop="12dp"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/helpimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/help" />
+
+            <TextView
+                android:id="@+id/helptext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/help"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/sfpro_display_medium"
+                android:layout_gravity="center"
+                android:layout_marginLeft="23.5dp"
+                android:letterSpacing="0.0525"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/rate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="17.7dp"
+            android:paddingBottom="12.2dp"
+            android:paddingTop="12dp"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/rateimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rate_app" />
+
+            <TextView
+                android:id="@+id/ratetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rate_app"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/sfpro_display_medium"
+                android:layout_gravity="center"
+                android:layout_marginLeft="23dp"
+                android:letterSpacing="0.0525"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_privacyPolice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="17.7dp"
+            android:paddingBottom="12.2dp"
+            android:paddingTop="12dp"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/fileimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/file" />
+
+            <TextView
+                android:id="@+id/filetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/sfpro_display_medium"
+                android:layout_gravity="center"
+                android:layout_marginLeft="26dp"
+                android:letterSpacing="0.0525" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="17.7dp"
+            android:paddingBottom="12.2dp"
+            android:paddingTop="12dp"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/shareimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/share_app" />
+
+            <TextView
+                android:id="@+id/sharetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="21.9dp"
+                android:fontFamily="@font/sfpro_display_medium"
+                android:letterSpacing="0.0525"
+                android:text="@string/share_app"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/signout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="17.7dp"
+            android:paddingBottom="12.2dp"
+            android:paddingTop="12dp"
+            android:orientation="horizontal"
+            android:background="@color/white">
+
+            <ImageView
+                android:id="@+id/signoutimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/signout" />
+
+            <TextView
+                android:id="@+id/signouttext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_out"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:fontFamily="@font/sfpro_display_medium"
+                android:layout_gravity="center"
+                android:layout_marginLeft="23.2dp"
+                android:letterSpacing="0.0525" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.navigation.NavigationView>

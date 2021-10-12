@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Login.OtpVerification">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+<!--        <include layout="@layout/toolbar_otp" />-->
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animationView"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:layout_width="260dp"
+            android:layout_height="240dp"
+            android:layout_centerVertical="true"
+            app:lottie_rawRes="@raw/otp_verification"
+            android:layout_gravity="center"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/sfpro_display_regular"
+            android:letterSpacing="0.0325"
+            android:lineSpacingExtra="3dp"
+            android:text="@string/we_have_sent_4_digit_code_non_1_23224232"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/tv_userMobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/sfpro_display_regular"
+            android:letterSpacing="0.0325"
+            android:lineSpacingExtra="3dp"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="16.5sp" />
+
+
+        <LinearLayout
+            android:id="@+id/pin_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="17.1dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/pin_first_edittext"
+                style="@style/pin_edittext_style"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:background="@drawable/rectangle_grayboder"
+                android:contentDescription="@string/pin_content_desc" />
+
+            <EditText
+                android:id="@+id/pin_second_edittext"
+                style="@style/pin_edittext_style"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/rectangle_grayboder"
+                android:contentDescription="@string/pin_content_desc" />
+
+            <EditText
+                android:id="@+id/pin_third_edittext"
+                style="@style/pin_edittext_style"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/rectangle_grayboder"
+                android:contentDescription="@string/pin_content_desc" />
+
+            <EditText
+                android:id="@+id/pin_forth_edittext"
+                style="@style/pin_edittext_style"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/rectangle_grayboder"
+                android:contentDescription="@string/pin_content_desc" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/pin_hidden_edittext"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@null"
+            android:contentDescription="@string/pin_content_desc"
+            android:cursorVisible="false"
+            android:gravity="center_horizontal"
+            android:maxLength="5"
+            android:textColor="#00000000" />
+
+        <TextView
+            android:id="@+id/tv_Timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24.7dp"
+            android:fontFamily="@font/sfpro_display_regular"
+            android:letterSpacing="0.0525"
+            android:text="@string/_00_30_sec_wating_for_the_otp"
+            android:textColor="@color/black"
+            android:textSize="14.5sp" />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfpro_display_regular"
+                android:letterSpacing="0.0325"
+                android:text="@string/didn_t_get_the_otp"
+                android:textColor="@color/silver"
+                android:textSize="14.5sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/sfpro_display_regular"
+                android:letterSpacing="0.0525"
+                android:text="@string/resendtxt"
+                android:textColor="@color/low_orange"
+                android:textSize="14.5sp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cheackBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfpro_display_regular"
+                android:letterSpacing="0.0525"
+                android:text="@string/by_continue_you_agreed_to"
+                android:textColor="@color/black"
+                android:textSize="15.7sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:fontFamily="@font/sfpro_display_regular"
+                android:text="@string/t_amp_c"
+                android:textColor="@color/skyblue"
+                android:textSize="15.7sp"
+                android:letterSpacing="0.0525" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/verify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/gradient_orange"
+            android:fontFamily="@font/sfpro_display_medium"
+            android:letterSpacing="0.0525"
+            android:paddingTop="15dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="30dp"
+            android:paddingBottom="15dp"
+            android:text="@string/verifytxt"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="17.7sp" />
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

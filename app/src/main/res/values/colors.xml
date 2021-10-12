@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#000</color>
+    <color name="purple_700">#000</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+    <color name="transperent">#00000000</color>
+    <color name="black">#3e5466</color>
+    <color name="silver">#919ca5</color>
+    <color name="low_orange">#000</color>
+    <color name="skyblue">#7190da</color>
+    <color name="lightblue">#f0f5ff</color>
+    <color name="light_red">#ff7676</color>
+    <color name="smokegray">#b7b7b7</color>
+    <color name="lightgray">#f9fafc</color>
+    <color name="green">#000</color>
+    <color name="lightsilver">#f7f7f7</color>
+    <color name="blue">#2345a5</color>
+    <color name="orange">#000</color>
+    <color name="viewline">#eaeaea</color>
+    <color name="darkblack">#454545</color>
+    <color name="dark_grey">#626262</color>
+    <color name="qr_code_reader_square">#FFFFFFFF</color>
+    <color name="low_green">#2ac17e</color>
+
+    <color name="red">#f22c2c</color>
+    <color name="light_grey">#f2f2f2</color>
+    <color name="dark_gray">#757575</color>
+
+/////////NewAdd
+    <color name="smoke_gray">#a2a2a2</color>
+    <color name="transparent">#00000000</color>
+    <color name="light_gray">#f4f4f4</color>
+    <color name="subtxt_gray">#9fa3a8</color>
+    <color name="serch_gray">#9f9f9f</color>
+    <color name="dark_green">#50a141</color>
+    <color name="light_black">#272727</color>
+    <color name="bg_color">#f2f3f4</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="light_silver">#c2c4ca</color>
+    <color name="orangedark">#F31212</color>
+    <color name="gold">#f0b300</color>
+
+
+</resources>

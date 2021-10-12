@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context=".Login.MobileRagisterActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="17dp"
+            android:clipToPadding="false">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animationView"
+                android:layout_width="320dp"
+                android:layout_height="320dp"
+                android:layout_centerVertical="true"
+                app:lottie_rawRes="@raw/registered"
+                android:layout_gravity="center"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"/>
+
+            <TextView
+                android:fontFamily="@font/sfpro_display_bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/welcome_to_goride"
+                android:textColor="@color/black"
+                android:textSize="18.3sp"
+                android:layout_marginLeft="16.7dp"
+                android:layout_marginTop="20dp"
+                android:letterSpacing="0.0425"/>
+
+            <TextView
+                android:fontFamily="@font/sfpro_display_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_signup"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:layout_marginLeft="16.7dp"
+                android:layout_marginTop="5dp"
+                android:letterSpacing="0.0425"/>
+
+            <TextView
+                android:fontFamily="@font/sfpro_display_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/enter_10_digit_mobile_number"
+                android:textColor="@color/black"
+                android:textSize="12.7sp"
+                android:layout_marginLeft="16.7dp"
+                android:layout_marginTop="22dp"
+                android:letterSpacing="0.0425"/>
+
+            <EditText
+                android:id="@+id/et_userMobile"
+                android:fontFamily="@font/sfpro_display_regular"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectangle_grayboder"
+                android:hint="@string/enter_mobile_number"
+                android:textSize="15sp"
+                android:textColor="@color/silver"
+                android:textColorHighlight="@color/black"
+                android:inputType="number"
+                android:paddingLeft="15dp"
+                android:paddingTop="16.7dp"
+                android:paddingBottom="16.7dp"
+                android:layout_marginTop="7.7dp"
+                android:layout_marginLeft="16.7dp"
+                android:layout_marginRight="16.7dp"
+                android:maxLength="10"
+                android:letterSpacing="0.0525"/>
+
+            <TextView
+                android:id="@+id/btn"
+                android:fontFamily="@font/sfpro_display_medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradient_orange"
+                android:text="@string/request_otp"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:layout_marginTop="23.3dp"
+                android:layout_marginLeft="16.7dp"
+                android:layout_marginRight="16.7dp"
+                android:letterSpacing="0.0525"
+                android:elevation="0.8dp"/>
+        </LinearLayout>
+    </ScrollView>
+</layout>

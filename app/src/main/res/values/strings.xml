@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">Tyide User</string>
+
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_map_root">Map</string>
+    <string name="enter_10_digit_mobile_number">Enter 10 Digit mobile number</string>
+    <string name="login_signup">Login/Signup</string>
+    <string name="welcome_to_goride">Welcome to Tyide</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+    <string name="request_otp">Request OTP</string>
+    <string name="we_have_sent_4_digit_code_non_1_23224232">
+        We have sent 4 digit code\non </string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="pin_content_desc">PIN input field</string>
+    <string name="_00_30_sec_wating_for_the_otp" translatable="false">30 sec wating for the OTP</string>
+    <string name="didn_t_get_the_otp">Didn’t get the OTP?</string>
+    <string name="resendtxt"><u>Resend!</u></string>
+    <string name="verifytxt">Verify</string>
+    <string name="by_continue_you_agreed_to">By Continue you agreed to</string>
+    <string name="submit">Submit</string>
+    <string name="view_ride_detail">View Ride Detail</string>
+    <string name="t_amp_c"><u><![CDATA[T & C]]></u></string>
+    <string name="gj_06_1421">GJ 06 1421</string>
+    <string name="honda_activa">Honda Activa</string>
+    <string name="_5_km_0_5_min">5/km  0.5/min</string>
+    <string name="one_way_trip">One Way Trip</string>
+    <string name="ride_kms">Ride Kms</string>
+    <string name="_5_km">(200 km)</string>
+    <string name="ok">OK</string>
+    <string name="_5_ride_available">5 Ride Available</string>
+    <string name="_10_min_walk" translatable="false">10 min walk</string>
+    <string name="confirm_pickup">Confirm Pickup</string>
+    <string name="pickup_address">Pickup Address</string>
+    <string name="s02_indiabulls_mega_mall_dineshmill_road_njetalpur_rode">
+        s02 indiabulls mega mall, dineshmill road jetalpur\nroad.</string>
+    <string name="scooter_ride_detail">Scooter/Ride Detail</string>
+    <string name="view">View</string>
+    <string name="ride_otp">Ride OTP</string>
+    <string name="your_scooter_key">(Your Scooter Key)</string>
+    <string name="dinesh_roadtxt">
+        s02 indiabulls mega mall, dineshmill\nroad</string>
+    <string name="direction">Direction</string>
+    <string name="scan_qr_code_from_ride">Scan QR Code from Ride</string>
+    <string name="scan_qr_code_to_get_otp_type_otp_non_vehicle_keypad_and_start_the_ride">
+        Scan QR code to get OTP, type OTP\non vehicle keypad and start the ride.</string>
+    <string name="change_of_mind">Change of Mind?</string>
+    <string name="cancel_booking">Cancel Booking</string>
+    <string name="scan_or_enter_vehicle_number">Scan or Enter Vehicle Number</string>
+    <string name="_3234">3234</string>
+    <string name="otp_not_working">OTP not working?</string>
+    <string name="contact_us"><u>Contact Us</u></string>
+    <string name="your_ride_started">Your Ride Started</string>
+    <string name="enter_otp_on_vehicle_directly_to_nget_control">
+        Enter OTP on vehicle directly to\nget control</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pay_online">Pay Online</string>
+    <string name="_13" translatable="false">$13</string>
+    <string name="ride_time">Ride Time</string>
+    <string name="_3" translatable="false">$3</string>
+    <string name="_10" translatable="false">$10</string>
+    <string name="apply_promocode">Apply Promocode</string>
+    <string name="payable_fare">Payable Fare</string>
+    <string name="wallets">WALLETS</string>
+    <string name="mon_dec_26">Mon, Dec 26</string>
+    <string name="_22nd_street" translatable="false">22nd street</string>
+    <string name="sub_23">Sub 23</string>
+    <string name="_11_20_am" translatable="false">11:20 am</string>
+    <string name="select_another_trip">Select Another Trip</string>
+    <string name="how_can_we_help">How Can We Help?</string>
+    <string name="trip_issues_and_refunds">Trip Issues and Refunds</string>
+    <string name="account_and_payment_options">Account and Payment Options</string>
+    <string name="a_guide_to_wroom_ride">A Guide to Wroom Ride</string>
+    <string name="legal_and_privacy_inquiries">Legal and privacy inquiries</string>
+    <string name="contact_customer_support">Contact Customer Support</string>
+    <string name="paypal">PayPal</string>
+    <string name="link_account">LINK ACCOUNT</string>
+    <string name="orange_money">Orange Money</string>
+    <string name="amazon_pay">Amazon Pay</string>
+    <string name="avl_bl_rp_500">Avl bl. Rp. 500</string>
+    <string name="_3411_xxxx_xxxx_1234">3411 xxxx xxxx 1234</string>
+    <string name="bank_of_america">Bank of America</string>
+    <string name="add_new_credit_card">+ ADD NEW CREDIT CARD</string>
+    <string name="john_doe">John Doe</string>
+    <string name="email">EMAIL</string>
+    <string name="john_gmail_com">John@gmail.com</string>
+    <string name="mobile">MOBILE</string>
+    <string name="_1_928324232" translatable="false">+1 928324232</string>
+    <string name="logout">Logout</string>
+    <string name="name">NAME</string>
+    <string name="_81313212">#81313212</string>
+    <string name="mon_dec_26_11_20_am">Mon, Dec 26, 11:20 am</string>
+    <string name="bill_detail">Bill Detail</string>
+    <string name="_2_km_0_5_min" translatable="false">2/km, 0.5/min</string>
+    <string name="base_fare">Base Fare</string>
+    <string name="to_pay">To Pay</string>
+    <string name="by_paypal">By PayPal</string>
+    <string name="distance">Distance</string>
+    <string name="_5_kms">(5 kms)</string>
+    <string name="_20_min" translatable="false">(150 min)</string>
+    <string name="wait_time">Wait Time</string>
+    <string name="total">Total</string>
+    <string name="pickup_point">Pickup Point</string>
+    <string name="_11_00_am" translatable="false">11:00 AM</string>
+    <string name="_11_sihvam_flat_near_vrajdham_temple_nmanjalpur_vadodara" translatable="false">
+        11 - Sihvam flat, near vrajdham temple,\nmanjalpur, vadodara.</string>
+    <string name="drop_point">Drop Point</string>
+    <string name="s_02_indiabulls_mega_mall_nr_dinesh_mill_njetalpur_roda_vadodara">
+        S 02 indiabulls mega mall, nr. dinesh mill,\njetalpur roda. vadodara.</string>
+    <string name="help_me"><u>Help me</u></string>
+    <string name="add_license_image">Add License Image</string>
+    <string name="max_5_mb">Max 5 MB</string>
+    <string name="rent_ride_return">Rent . Ride . Return</string>
+    <string name="booking_canceled">Booking Canceled</string>
+    <string name="your_booking_successfully_canceled_nsee_you_next_time">
+        Your booking successfully canceled\nsee you next time!</string>
+    <string name="select_payment_method">Select Payment Method</string>
+    <string name="successful">Successful!</string>
+    <string name="payment_successful_of_n_13">Payment successful of\n$13</string>
+    <string name="booking_expire_in">Booking Expire in</string>
+    <string name="_20_30_min" translatable="false">20:30 min</string>
+    <string name="with_otp_you_can_get_control_of_scooter">
+        With OTP you can get control of scooter</string>
+    <string name="drop_address">Drop Address</string>
+    <string name="alok_flat_near_main_station_new_ajar_nvadodara">
+        Alok Flat, near Main station, new ajar\nvadodara</string>
+    <string name="enter_otp_to_end_ride">Enter OTP to End Ride</string>
+    <string name="enter_otp_on_scooter_keypad_and_npress_end_button_to_end_your_ride">
+        Enter OTP on scooter keypad and\npress END button to end your ride</string>
+    <string name="_300m_5_min">300m, 5 min</string>
+    <string name="_25_off" translatable="false">25% Off</string>
+    <string name="get_20_off_on_your_1st_ride">Get 20% off on your 1st ride</string>
+    <string name="know_more"><u>know more</u></string>
+    <string name="use">Use</string>
+    <string name="jetalpur">Jetalpur</string>
+    <string name="akota">Akota</string>
+    <string name="_33">$33</string>
+    <string name="ride">Ride</string>
+    <string name="payment_modes">Payment Modes</string>
+    <string name="Allbookings">Bookings</string>
+    <string name="offers">Offers</string>
+    <string name="help">Help</string>
+    <string name="rate_app">Rate App</string>
+    <string name="terms_of_uses">Terms of Uses</string>
+    <string name="share_app">Share App</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="goride">GoRide</string>
+    <string name="press_end_on_scooter">Press End on Scooter</string>
+    <string name="once_you_reach_at_drop_location_on_scooter_keypad_press_end_button_to_end_your_ride">
+        Once you reach at drop location, On\nscooter keypad press END button to\nend your ride</string>
+    <string name="pay_13">Pay $13</string>
+    <string name="_5_km_0_5_mincomatxt">5/km, 0.5/min</string>
+    <string name="_11_20_amtxt" translatable="false">11:20 AM</string>
+    <string name="one_way">One Way</string>
+    <string name="round_trip">Round Trip</string>
+    <string name="recentre">Recentre</string>
+    <string name="exit">Exit</string>
+    <string name="or">or</string>
+    <string name="enter_vehicle_number"><u>Enter Vehicle Number</u></string>
+    <string name="scan_qr_code"><u>Scan QR code</u></string>
+    <string name="gj">GJ</string>
+    <string name="_06" translatable="false">06</string>
+    <string name="_4132">4132</string>
+
+
+    <string name="Rs">\u20B9</string>
+
+</resources>

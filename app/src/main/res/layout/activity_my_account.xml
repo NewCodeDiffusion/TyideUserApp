@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/light_grey"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".Activity.MyAccountActivity">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@color/white"
+                android:layout_height="50dp">
+                <ImageView
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/iv_back"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_right_arrow_24"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"/>
+                <TextView
+                    android:textSize="17sp"
+                    android:textColor="@color/orange"
+                    android:gravity="center"
+                    android:text="My Account"
+                    android:textStyle="bold"
+                    android:layout_centerVertical="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/user_profileImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="150dp"
+                        android:elevation="10dp"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_man_1"
+                        app:civ_border_color="@color/white"
+                        app:civ_border_width="5dp" />
+
+                    <ImageView
+                        android:layout_toRightOf="@+id/user_profileImage"
+                        android:id="@+id/iv_uploadImage"
+                        android:layout_width="34dp"
+                        android:layout_marginLeft="-20dp"
+                        android:layout_height="34dp"
+                        android:src="@drawable/ic_upload_image_24"
+                        android:layout_marginTop="85dp"/>
+                </RelativeLayout>
+
+
+                <EditText
+                    android:id="@+id/et_userName"
+                    android:fontFamily="@font/sfpro_display_regular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle_grayboder"
+                    android:hint="Enter Name"
+                    android:textSize="15sp"
+                    android:textColor="@color/silver"
+                    android:textColorHighlight="@color/black"
+                    android:inputType="text"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:padding="10dp"
+                    android:letterSpacing="0.0525"/>
+                <TextView
+                    android:id="@+id/tv_userMobile"
+                    android:fontFamily="@font/sfpro_display_regular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle_grayboder"
+                    android:hint="Enter Mobile No"
+                    android:textSize="15sp"
+                    android:textColor="@color/silver"
+                    android:textColorHighlight="@color/black"
+                    android:inputType="number"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:padding="10dp"
+                    android:maxLength="10"
+                    android:letterSpacing="0.0525"/>
+
+                <EditText
+                    android:id="@+id/et_userEmail"
+                    android:fontFamily="@font/sfpro_display_regular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle_grayboder"
+                    android:hint="Enter Email ID"
+                    android:textSize="15sp"
+                    android:textColor="@color/silver"
+                    android:textColorHighlight="@color/black"
+                    android:inputType="textEmailAddress"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:padding="10dp"
+                    android:letterSpacing="0.0525"/>
+                <EditText
+                    android:visibility="gone"
+                    android:id="@+id/userGender"
+                    android:fontFamily="@font/sfpro_display_regular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle_grayboder"
+                    android:hint="Enter Gender Type"
+                    android:textSize="15sp"
+                    android:textColor="@color/silver"
+                    android:textColorHighlight="@color/black"
+                    android:inputType="text"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:padding="10dp"
+                    android:letterSpacing="0.0525"/>
+
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/rectangle_grayboder">
+
+                    <RadioButton
+                        android:id="@+id/rb_male"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Male"
+                        android:textSize="16sp"
+                        android:textColor="@color/black" />
+
+                    <RadioButton
+                        android:layout_marginLeft="50dp"
+                        android:id="@+id/rb_female"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="female"
+                        android:textSize="16sp"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/et_FullAddress"
+                    android:fontFamily="@font/sfpro_display_regular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle_grayboder"
+                    android:hint="Enter Full Address"
+                    android:textSize="15sp"
+                    android:textColor="@color/silver"
+                    android:textColorHighlight="@color/black"
+                    android:inputType="text"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:padding="10dp"
+                    android:letterSpacing="0.0525"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:id="@+id/et_FlateNo"
+                        android:fontFamily="@font/sfpro_display_regular"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectangle_grayboder"
+                        android:hint="Enter Flate No"
+                        android:textSize="15sp"
+                        android:textColor="@color/silver"
+                        android:textColorHighlight="@color/black"
+                        android:inputType="text"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:padding="10dp"
+                        android:letterSpacing="0.0525"/>
+                    <EditText
+                        android:id="@+id/et_Area"
+                        android:fontFamily="@font/sfpro_display_regular"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectangle_grayboder"
+                        android:hint="Enter Area Name"
+                        android:textSize="15sp"
+                        android:textColor="@color/silver"
+                        android:textColorHighlight="@color/black"
+                        android:inputType="text"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="30dp"
+                        android:padding="10dp"
+                        android:letterSpacing="0.0525"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:id="@+id/et_CityName"
+                        android:fontFamily="@font/sfpro_display_regular"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectangle_grayboder"
+                        android:hint="Enter City Name"
+                        android:textSize="15sp"
+                        android:textColor="@color/silver"
+                        android:textColorHighlight="@color/black"
+                        android:inputType="text"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="10dp"
+                        android:padding="10dp"
+                        android:letterSpacing="0.0525"/>
+                    <EditText
+                        android:id="@+id/et_StateName"
+                        android:fontFamily="@font/sfpro_display_regular"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/rectangle_grayboder"
+                        android:hint="Enter State Name"
+                        android:textSize="15sp"
+                        android:textColor="@color/silver"
+                        android:textColorHighlight="@color/black"
+                        android:inputType="text"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="30dp"
+                        android:padding="10dp"
+                        android:letterSpacing="0.0525"/>
+                </LinearLayout>
+
+
+                <EditText
+                    android:id="@+id/et_PinCode"
+                    android:fontFamily="@font/sfpro_display_regular"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rectangle_grayboder"
+                    android:hint="Enter PinCode"
+                    android:textSize="15sp"
+                    android:textColor="@color/silver"
+                    android:textColorHighlight="@color/black"
+                    android:inputType="text"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:padding="10dp"
+                    android:letterSpacing="0.0525"/>
+                <TextView
+                    android:id="@+id/tv_updateProfile"
+                    android:fontFamily="@font/sfpro_display_medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gradient_orange"
+                    android:text="Update"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textAllCaps="false"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:elevation="0.8dp"/>
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+
+
+    </LinearLayout>
+</layout>
